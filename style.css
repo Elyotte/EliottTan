@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #00ff00;
+  color: rgb(35, 140, 211);
 }
 
 #hero {
@@ -51,6 +51,7 @@ nav a:hover {
   text-align: center;
   overflow: hidden;
   padding-left: 5%;
+  margin-bottom: 30px;
 }
 
 .hero-video {
@@ -85,8 +86,21 @@ footer {
   padding: 40px;
   text-align: center;
   margin-top: 50px;
+
+  position: sticky;
+  top:100vh;
+  
 }
 
-.blankPage{
-min-height: 100vh;
+#gallery{
+    font-size: 60px;
+    align-items: center;
+    width: 100%;
+    min-height: 200vh;
+}
+
+#gallery h1{
+    background-color: rgb(64, 92, 92);
+    font-size: 50px;
+    
 }
