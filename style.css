@@ -101,7 +101,7 @@ nav a:hover {
 /* MODULAR GRID */
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));  /* Responsive columns */
+  grid-template-columns: repeat(3, minmax(200px, 1fr));  /* Responsive columns */
   gap: 30px;
   max-width: 1200px;  /* Maximum width constraint */
   width: 100%;
