@@ -8,11 +8,9 @@
 </head>
 <body>
 
-  <nav>
-    <a href="#hero">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#footer">Contact</a>
-  </nav>
+  
+  <nav-bar></nav-bar>
+  <script src="components/navbar.js" defer></script>
 
   <section id="hero">
     <video autoplay loop muted playsinline disablePictureInPicture class="hero-video">
@@ -20,21 +18,33 @@
     </video>
     <h1>Eliott TAN</h1>
     <p>Gameplay programmer & Game Designer</p>
+     <a href = "#footer">Contact me</a>
   </section>
 
   <section class="gallery">
     <h1 >Games</h1>
+
     <div class="gallery-grid" id="projects">
         <a href="Projects/TheUnseelieCourt.html" class="project-card">
             <img src="assets/gifs/UnseelieBoatSystem.gif" alt="Unseelie">
             <h3 class="project-overlay">The Unseelie Court</h3>
         </a>
     </div>
+
+    <div class="gallery-grid">
+        <a href="Projects/Solastra.html" class="project-card">
+            <img src="assets/gifs/UnseelieBoatSystem.gif" alt="Solastra">
+            <h3 class="project-overlay">Solastra</h3>
+        </a>
+    </div>
+
   </section>
 
   <footer id="footer">
     <p>© 2025 - tan.eliott04@gmail.com</p>
   </footer>
 
+
+  
 </body>
 </html>
