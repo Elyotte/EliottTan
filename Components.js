@@ -20,4 +20,9 @@ class NavBar extends HTMLElement {
   }
 }
 
+class Footerbar extends HTMLElement{
+    
+}
+
 customElements.define("nav-bar", NavBar)
+customElements.define("app-footer", Footerbar)

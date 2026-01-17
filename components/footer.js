@@ -1,3 +1,0 @@
-class footerbar extends HTMLElement{
-    
-}
