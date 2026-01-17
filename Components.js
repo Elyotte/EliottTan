@@ -21,7 +21,12 @@ class NavBar extends HTMLElement {
 }
 
 class Footerbar extends HTMLElement{
-    
+    connectedCallback(){
+      this.innerHTML = `
+      <footer>
+        <p>© 2025 - tan.eliott04@gmail.com</p>
+      </footer>`
+    }
 }
 
 customElements.define("nav-bar", NavBar)
