@@ -17,7 +17,7 @@ body {
 }
 
 
-nav {
+nav-bar {
   background-color: #333;
   padding: 20px;
   display: flex;
@@ -30,13 +30,13 @@ nav {
   min-height: 70px;
 }
 
-nav a {
+nav-bar a {
   color: white;
   text-decoration: none;
   font-size: 18px;
 }
 
-nav a:hover {
+nav-bar a:hover {
   color: rgb(35, 140, 211);
 }
 
@@ -161,9 +161,10 @@ nav a:hover {
 }
 
 /* FOOTER */
-footer {
+app-footer {
   background-color: #222;
   padding: 40px;
   text-align: center;
-  margin-top: auto;  /* Push to bottom */
+  margin-top: auto;
+  width: 100%;
 }
