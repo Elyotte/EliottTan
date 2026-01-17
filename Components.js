@@ -3,13 +3,6 @@ class NavBar extends HTMLElement {
     const isProjectPage = window.location.pathname.includes("/projects/");
     const pathToIndex = isProjectPage ? "../index.html" : "index.html";  
 
-    this.style.position = 'sticky';
-    this.style.top = '0';
-    this.style.zIndex = '1000';
-    this.style.display = 'block';
-    this.style.width = '100%';
-    
-
     this.innerHTML = `
       <a href="${pathToIndex}#hero">Home</a>
       <a href="${pathToIndex}#projects">Projects</a>
