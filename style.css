@@ -177,7 +177,7 @@ app-footer a {
   text-decoration: none;
 }
 
-*.footer-links{
+.footer-links{
   display: flex;
   gap: 20px;
 }
