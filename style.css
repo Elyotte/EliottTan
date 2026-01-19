@@ -181,3 +181,37 @@ app-footer a {
   display: flex;
   gap: 20px;
 }
+
+.project-content {
+  max-width: 1000px;  /* Largeur maximale */
+  margin: 0 auto;    /* Centre horizontalement */
+  padding: 40px 20px; /* Espacement vertical et horizontal */
+}
+
+.project-content h1{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description{
+  background-color: #2a2f3f;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 37px;
+}
+
+.description p{
+  margin: 0;
+  padding: 3px 0;
+}
+
+.video-container {
+  margin: 30px 0; /* Espace au-dessus et en-dessous */
+}
+
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Ratio YouTube standard */
+  border-radius: 8px;
+}
