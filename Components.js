@@ -19,7 +19,7 @@ class Footerbar extends HTMLElement{
       const pathToIndex = isProjectPage ? "../index.html" : "index.html";  
 
       this.innerHTML = `
-      <p>© 2025 - tan.eliott04@gmail.com</p>
+      <p>made using github pages - tan.eliott04@gmail.com</p>
       <div class="footer-links">
         <a href="${pathToIndex}#hero">Home</a>
         <a href="https://www.linkedin.com/in/eliott-tan/" target="_blank">LinkedIn</a>
