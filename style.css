@@ -167,4 +167,17 @@ app-footer {
   text-align: center;
   margin-top: auto;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-footer a {
+  color: rgb(35, 140, 211);
+  text-decoration: none;
+}
+
+*.footer-links{
+  display: flex;
+  gap: 20px;
 }
