@@ -15,7 +15,7 @@ class NavBar extends HTMLElement {
 
 class Footerbar extends HTMLElement{
     connectedCallback(){
-      const isProjectPage = window.location.pathname.includes("/projects/");
+      const isProjectPage = window.location.pathname.includes("/Projects/");
       const pathToIndex = isProjectPage ? "../index.html" : "index.html";  
 
       this.innerHTML = `
