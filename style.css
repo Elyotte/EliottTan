@@ -215,3 +215,28 @@ app-footer a {
   aspect-ratio: 16 / 9; /* Ratio YouTube standard */
   border-radius: 8px;
 }
+
+.short-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement (optionnel) */
+  margin: 30px 0;
+}
+
+.short-container iframe {
+  width: 315px;
+  height: 560px;
+  border-radius: 8px;
+  border: none;
+}
+.imageInline{
+  display: inline-block;
+  gap : 10px;
+  align-items: center;
+}
+
+.imageInline img{
+  width: 300px;
+  height: auto;
+  position: relative;
+}
