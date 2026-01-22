@@ -240,3 +240,19 @@ app-footer a {
   height: auto;
   position: relative;
 }
+
+.project-content a{
+  background-color: #2f3853;
+  border-radius: 16px;
+  padding: 10px;
+  color : white;
+  display: block;
+  justify-items: center;
+  width: fit-content;
+  margin: 20px auto;
+  text-decoration: none;
+}
+
+.project-content a:hover{
+  background-color: rgb(76, 107, 165);
+}
