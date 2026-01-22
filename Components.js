@@ -1,6 +1,6 @@
 class NavBar extends HTMLElement {
   connectedCallback() {
-    const isProjectPage = window.location.pathname.includes("/Projects/");
+    const isProjectPage = window.location.pathname.includes("/Projects/") || window.location.pathname.includes("/WorkExperiences/");
     const pathToIndex = isProjectPage ? "../index.html" : "index.html";  
 
     this.innerHTML = `
