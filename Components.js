@@ -7,7 +7,6 @@ class NavBar extends HTMLElement {
       <a href="${pathToIndex}#hero">Home</a>
       <a href="${pathToIndex}#projects">Projects</a>
       <a href="${pathToIndex}#Prototypes">Prototypes</a>
-      <a href="${pathToIndex}#R&D">R&D</a>
       <a href="${pathToIndex}#footer">Contact</a>
     `
   }
